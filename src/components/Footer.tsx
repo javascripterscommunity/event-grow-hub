@@ -4,14 +4,16 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">E</span>
-              </div>
-              <span className="text-xl font-bold text-gradient">EventFlow</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/lovable-uploads/e6449cf1-08d7-48b0-aa0d-3be78a5bcc67.png" 
+                alt="CommuConnect - Community Event Platform Logo" 
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-muted-foreground">
               Empowering communities through AI-powered event management and continuous learning.
+              <span className="block text-sm mt-1 font-medium text-primary">Upskill | Engage | Grow</span>
             </p>
           </div>
 
@@ -47,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 EventFlow. All rights reserved. Built with ❤️ for the community.</p>
+          <p>&copy; 2024 CommuConnect. All rights reserved. Built with ❤️ for the community.</p>
         </div>
       </div>
     </footer>
