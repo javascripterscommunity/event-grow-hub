@@ -11,13 +11,13 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-gradient">Empower</span> Your
+                Build the <span className="text-gradient">Future</span> of
                 <br />
-                Event Community
+                Tech Communities
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                The AI-powered platform that connects organizers, speakers, volunteers, 
-                and audiences in one seamless ecosystem for continuous learning and growth.
+                Comprehensive AI-powered platform empowering organizers, speakers, volunteers, and audiences 
+                through simplified event management, continuous learning, and career growth opportunities.
               </p>
             </div>
             
